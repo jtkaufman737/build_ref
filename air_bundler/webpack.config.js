@@ -11,6 +11,8 @@ var stylesConfig = {
   entry: [
      '../../cumulus-air-manager/air_manager/dashboard/src/css/dashboard.css',
      '../../cumulus-air-manager/air_manager/dashboard/src/images/logo.png',
+     '../../cumulus-air-manager/air_manager/dashboard/src/images/clone.png',
+     '../../cumulus-air-manager/air_manager/dashboard/src/images/delete.png',
      './node_modules/vuetify/dist/vuetify.css',
   ],
   plugins: [
@@ -21,7 +23,7 @@ var stylesConfig = {
   ],
   output: {
     filename: '[name].bundle.css',
-    // chunkFilename: '[name].bundle.css', for some reason looks like this was causing weird behavior - a js file ??? Look into later 
+    // chunkFilename: '[name].bundle.css', for some reason looks like this was causing weird behavior - a js file ??? Look into later
     path: path.resolve(__dirname, '../../cumulus-air-manager/air_manager/dashboard/static/dashboard/css/')
   },
   module: {
