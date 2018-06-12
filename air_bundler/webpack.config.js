@@ -51,7 +51,6 @@ var stylesConfig = {
 
 var jsConfig = {
   entry: [
-     './src/index.js',
      './node_modules/vue/dist/vue.runtime.common.js',
      './node_modules/vuetify/dist/vuetify.min.js'
   ],
