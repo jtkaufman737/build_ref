@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+<<<<<<< HEAD
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
@@ -16,11 +17,15 @@
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
+=======
+    <router-view/>
+>>>>>>> 721a294ef01eaa83c2ffd4177b8e0549120a6312
   </div>
 </template>
 
 <script>
 export default {
+<<<<<<< HEAD
   name: 'app',
   data () {
     return {
@@ -31,6 +36,13 @@ export default {
 </script>
 
 <style lang="scss">
+=======
+  name: 'App'
+}
+</script>
+
+<style>
+>>>>>>> 721a294ef01eaa83c2ffd4177b8e0549120a6312
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -39,6 +51,7 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+<<<<<<< HEAD
 
 h1, h2 {
   font-weight: normal;
@@ -57,4 +70,6 @@ li {
 a {
   color: #42b983;
 }
+=======
+>>>>>>> 721a294ef01eaa83c2ffd4177b8e0549120a6312
 </style>
